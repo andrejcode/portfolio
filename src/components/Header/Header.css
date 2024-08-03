@@ -1,0 +1,46 @@
+#home {
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.logo-and-nav {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+
+.theme-and-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home-text {
+  height: calc(100% - 110px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-name {
+  color: var(--accent-color);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  #home {
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,35 @@
+.desktop-social-icons {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  font-size: 32px;
+  padding: 20px 8px 8px;
+  color: var(--text-color);
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,12 @@
+footer p {
+  text-align: center;
+  padding: 8px 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer hr {
+  width: 90%;
+}

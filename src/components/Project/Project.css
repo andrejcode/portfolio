@@ -1,0 +1,36 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+.project-title {
+  font-size: 1.5em;
+  margin: 16px;
+}
+
+.project-description {
+  font-size: 1em;
+  margin: 0 16px 16px 16px;
+  color: var(--text-hover-color);
+}
+
+.project-button {
+  all: unset;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.project-button:hover {
+  color: var(--text-hover-color);
+}

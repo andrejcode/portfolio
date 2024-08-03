@@ -1,0 +1,100 @@
+:root {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  --accent-color: #007fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
+}
+
+[data-theme='light'] {
+  --background-color: #fff;
+  --text-color: #000;
+  --text-hover-color: #555;
+}
+
+[data-theme='dark'] {
+  --background-color: #282c34;
+  --text-color: #fff;
+  --text-hover-color: #a9a9a9;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  color-scheme: light dark;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  h5 {
+    font-size: 12px;
+  }
+
+  h6 {
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

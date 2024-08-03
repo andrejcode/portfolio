@@ -1,0 +1,32 @@
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 18px;
+}
+
+.nav-links li a:hover {
+  color: var(--text-hover-color);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links li {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+}

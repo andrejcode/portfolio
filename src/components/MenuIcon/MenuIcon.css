@@ -1,0 +1,47 @@
+.menu-icon {
+  cursor: pointer;
+  height: 24px;
+  width: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.line {
+  border-radius: 10px;
+  background-color: var(--text-color);
+  height: 4px;
+  width: 100%;
+  margin: 3px 0;
+  transition:
+    transform 0.5s ease-in-out,
+    opacity 0.5s ease-in-out;
+}
+
+.first-line-close,
+.third-line-close {
+  transform: translateY(0) rotate(0deg);
+}
+
+.first-line-open {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.second-line-close {
+  opacity: 1;
+}
+
+.second-line-open {
+  opacity: 0;
+}
+
+.third-line-open {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+  }
+}
