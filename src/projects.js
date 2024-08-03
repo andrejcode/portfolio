@@ -7,14 +7,14 @@ const projects = [
     title: 'The Wardrobe',
     description: 'An e-commerce website for a clothing store.',
     image: wardrobe,
-    github: '',
+    github: 'https://github.com/andrejcode/the-wardrobe',
   },
   {
     id: 2,
     title: 'Beauty Salon',
     description: 'A website for a beauty salon.',
     image: beautySalon,
-    github: '',
+    github: 'https://github.com/andrejcode/beauty-salon',
   },
 ];
 
