@@ -5,7 +5,7 @@ export default function ThemeToggle() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <button className="theme-toggle-button" onClick={toggleTheme}>
+    <button className="theme-toggle-button" aria-label="Toggle theme" onClick={toggleTheme}>
       {theme === 'light' ? '🌙' : '☀️'}
     </button>
   );
