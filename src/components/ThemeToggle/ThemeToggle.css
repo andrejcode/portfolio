@@ -2,5 +2,8 @@
   all: unset;
   cursor: pointer;
   font-size: 32px;
-  margin: 0 12px;
+  margin: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

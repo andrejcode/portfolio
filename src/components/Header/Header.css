@@ -35,10 +35,6 @@
   color: var(--accent-color);
 }
 
-.no-scroll {
-  overflow: hidden;
-}
-
 @media (max-width: 768px) {
   #home {
     padding: 0 16px;
