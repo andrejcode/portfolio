@@ -2,6 +2,7 @@ import ThemeToggle from '@/components/ThemeToggle/ThemeToggle';
 import NavLinks from '../NavLinks/NavLinks';
 import MobileMenu from '../MobileMenu/MobileMenu';
 import SocialIcons from '../SocialIcons/SocialIcons';
+import { IoIosArrowDown } from 'react-icons/io';
 import logo from '@/assets/logo.webp';
 import './Header.css';
 
@@ -33,6 +34,11 @@ export default function Header() {
       <div className="hide-mobile desktop-social-icons">
         <SocialIcons />
       </div>
+
+      <a className="projects-link" href="#projects">
+        View My Projects
+        <IoIosArrowDown size={24} className="arrow-down" />
+      </a>
     </header>
   );
 }

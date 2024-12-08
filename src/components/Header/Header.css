@@ -1,6 +1,9 @@
 #home {
   height: 100vh;
   padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo {
@@ -10,11 +13,14 @@
 }
 
 .logo-and-nav {
-  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 56px;
+}
+
+.logo-and-nav > div {
+  margin-top: 20px;
 }
 
 .theme-and-nav {
@@ -24,19 +30,57 @@
 }
 
 .home-text {
-  height: calc(100% - 110px);
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  line-height: 0.5;
 }
 
 .home-name {
   color: var(--accent-color);
 }
 
+.projects-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.projects-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.projects-link:hover {
+  text-decoration: underline;
+}
+
+.arrow-down {
+  margin-top: 12px;
+  animation: moveUpDown 1s infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
 @media (max-width: 768px) {
   #home {
     padding: 0 16px;
+  }
+
+  .projects-link {
+    font-size: 16px;
   }
 }
