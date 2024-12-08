@@ -6,15 +6,13 @@ export default function About() {
     <section id="about">
       <h2>About</h2>
       <div className="about-container">
-        <img className="profile" src={profile} alt="Profile" />
+        <img className="profile" src={profile} alt="Andrej's profile picture" />
         <p className="about-text">
-          My name is Andrej Milanović. I am a passionate React front-end web developer. My journey
-          began with personal projects, leading to a comprehensive learning experience at Turing
-          College, where I excelled in front-end development and grew as a leader. As a Junior Team
-          Lead, I honed my leadership and teamwork skills, supporting and motivating peers in an
-          Agile environment. I am hardworking, punctual, and always eager to embrace new challenges
-          and technologies. My goal is to continue growing in the tech industry and contribute my
-          expertise and enthusiasm to new opportunities.
+          I&apos;m Andrej Milanović, a passionate React front-end developer with experience building
+          engaging, user-friendly interfaces. I honed my skills through projects and comprehensive
+          learning at Turing College, where I also developed leadership abilities as a Junior Team
+          Lead in Agile teams. I&apos;m eager to embrace new challenges, grow in the tech industry,
+          and contribute my skills to impactful projects.
         </p>
       </div>
     </section>

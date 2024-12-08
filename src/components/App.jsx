@@ -7,8 +7,10 @@ function App() {
   return (
     <>
       <Header />
-      <About />
-      <Projects />
+      <main>
+        <Projects />
+        <About />
+      </main>
       <Footer />
     </>
   );

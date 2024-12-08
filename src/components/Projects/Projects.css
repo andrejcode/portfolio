@@ -1,6 +1,5 @@
 #projects {
-  padding: 20px;
-  min-height: 100vh;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,6 +18,6 @@
 
 @media (max-width: 768px) {
   #projects {
-    padding: 16px;
+    padding: 32px;
   }
 }
