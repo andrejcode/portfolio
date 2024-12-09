@@ -39,3 +39,9 @@
 .project-button:hover {
   color: var(--text-hover-color);
 }
+
+@media (max-width: 768px) {
+  .project {
+    margin: 16px 0;
+  }
+}
